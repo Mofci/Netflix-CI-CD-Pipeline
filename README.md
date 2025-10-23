@@ -1,4 +1,4 @@
-![Netflix CI/CD Banner](https://github.com/USERNAME/Netflix-CI-CD-Pipeline/blob/main/Netflix-CI-CD-Banner.png)
+![Netflix CI/CD Banner](https://github.com/Mofci/Netflix-CI-CD-Pipeline/blob/main/Netflix-CI-CD-Banner.png)
 
 # 🎬 Netflix Clone CI/CD Pipeline
 
