@@ -1,0 +1,20 @@
+# ==========================================================
+# File: node_exporter.service
+# Description: Systemd unit file to manage Node Exporter service
+# Author: Moamen Nasser
+# ==========================================================
+
+[Unit]
+Description=Node Exporter Metrics Service
+After=network-online.target
+
+[Service]
+User=node_exporter
+Group=node_exporter
+Type=simple
+ExecStart=/usr/local/bin/node_exporter
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
